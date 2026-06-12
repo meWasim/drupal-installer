@@ -1,0 +1,24 @@
+{
+    "name": "alfwasim/drupal-installer",
+    "description": "Help to install drupal project",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Alfwasim\\DrupalInstaller\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "wasim",
+            "email": "alfwasim@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "symfony/process": "^7.0"
+    },
+    "bin": [
+        "bin/drupal"
+    ]
+}
